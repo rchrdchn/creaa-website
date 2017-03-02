@@ -1,0 +1,142 @@
+body {
+	font-family: "Futura", sans-serif;
+	padding-top: 70px;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+	background: #ffffff;
+}
+
+.top-nav {
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+}
+
+.top-nav > li {
+	display: inline-block;
+}
+
+.nav-left {
+	float: left;
+}
+
+.nav-center {
+	padding: 50px 20px;
+	margin-left: 13%;
+	margin-right: 5%;
+	font-size: 20px;
+}
+
+.nav-right {
+	float: right;
+	padding: 50px 50px 20px 0;
+}
+
+/* NEWSLETTER FORM */
+
+#newsletter {
+	background-color: #FF0000;
+}
+
+.newsletter {
+	margin: 10px 25px;
+	text-align: center;
+}
+
+.form-group {
+	padding-right: 40px;
+	color: #fff;
+}
+
+#name {
+
+}
+
+#email {
+
+}
+
+/* MISSION STATEMENT */
+
+#mission {
+	text-align: center;
+}
+
+.mission-st {
+
+}
+
+.mission-st > h2 {
+	margin-top: 50px;
+}
+
+.mission-st > p {
+	margin: 30px 23%;
+}
+
+/* CURRENT BOARD */
+
+.current-board h2 {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.board-list > li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.board-img {
+	width: 150px;
+	height: 150px;
+	border: 1px black solid;
+	margin: 5px 80px;
+	align-items: center;
+}
+
+
+
+/* CORPORATE SPONSORS LOGOS */
+
+.sponsor-list {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.sponsor-img {
+	margin: 10px 10px;
+}
+
+/* INFORMATION BOXES */
+
+#information {
+	margin-bottom: 50px;
+}
+
+
+/* FOOTER with SOCIAL ICONS and INFORMATION */
+
+#footer {
+	background-color: #888;
+}
+
+.footer-social i {
+	margin: 5px 5px;
+	color: #fff;
+}
+
+.footer-info {
+	display: inline-block;
+}
+
+.footer-info p {
+	display: inline-block;
+	margin: 5px 15px;
+	padding: 15px;
+	color: #111;
+	margin: 0 auto;
+}
