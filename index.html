@@ -25,8 +25,11 @@
 	<!-- Font Awesome -->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	
+	<!-- jQuery CDN -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>	
+
 	<!-- TITLE -->
-	<title>Chinese Real Estate Association of America</title>
+	<title>CREAA - Chinese Real Estate Association of America</title>
 
 </head>
 
@@ -34,7 +37,44 @@
 
 <!-- TOP NAVIGATION BAR - FIXED -->
 
-	<div class="container-fluid">
+<!-- NAVIGATION BAR - TOGGLES INTO BURGER ICON WHEN REACHES MIN WIDTH OF 768PX (MEDIA QUERY) -->
+	<nav class="navbar navbar-fixed-top">
+		<div class="container-fluid">
+		
+		<!-- Brand and toggle get grouped for better mobile display -->
+		
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#burger-icon" aria-expanded="false">
+		    <span class="sr-only">Toggle navigation</span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		  </button>
+		  <ul class="top-nav nav-left">
+		  <img src="images/creaa-logo.png" class="logo navbar-left" alt="creaa logo">
+		  </ul>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		
+		<div class="collapse navbar-collapse" id="burger-icon">
+		  	<ul class="nav nav-pills top-nav nav-center">
+		    	<li><a href="#">About</a></li>
+		        <li><a href="#">Events</a></li>
+		        <li><a href="#">Resources</a></li>
+		        <li><a href="#">Membership</a></li>
+		        <li><a href="#">Contact</a></li>
+		  	</ul>
+	  		<ul class="top-nav nav-pills nav-right">
+				<li><a href="#"><button type="button" class="btn btn-primary btn-lg">Log in</button></a></li>
+				<li><a href="#"><button type="button" class="btn btn-danger btn-lg">Join us</button></a></li>
+			</ul>
+		</div> <!-- /.navbar-collapse -->
+		</div> <!-- /.container-fluid -->
+	</nav>
+
+
+<!-- 	<div class="container-fluid">
 		<div class="row">
 			<div class="navbar navbar-fixed-top">
 				<ul class="top-nav nav-left">
@@ -54,7 +94,7 @@
 			</div>
 		</div>
 	</div>
-
+ -->
 <!-- INTRO IMAGE -->
 	
 	<div class="container-fluid">
@@ -69,7 +109,7 @@
 	<div class="container-fluid">
 		<div class="row" id="newsletter">
 			<div class="newsletter">
-				<a href="#"><p class="sign-up">Get the latest news about CREAA. Sign up for the newsletter! (No spam. Guaranteed!)</p></a>
+				<a href="#"><p class="sign-up">Get the latest CREAA news. Sign up for the newsletter! (No spam. Guaranteed!)</p></a>
 			</div>
 		</div>
 	</div>
@@ -79,9 +119,9 @@
 	<div class="container-fluid">
 		<div class="row" id="mission">
 			<div class="mission-st">
-				<h2>WHO WE ARE</h2>
+				<h2>Who we are</h2>
 				<p>We are the Chinese Real Estate Association of America and we provide opportunities for good networking among our members; we bring together real estate licensees and other individuals interested in the Chinese real estate community; and we exert beneficial influences upon the real estate profession and related interest.</p>
-				<button type="button" class="btn btn-default btn-lg text-center">Read More</button>
+				<button type="button" class="btn btn-danger btn-lg text-center">Read More</button>
 			</div>
 		</div>
 	</div>
@@ -91,7 +131,7 @@
 	<div class="container-fluid">
 		<div class="row" id="board">
 			<div class="current-board">
-				<h2>CURRENT BOARD</h2>
+				<h2>Current Board</h2>
 				
 				<ul class="board-list">
 					<li>
@@ -111,7 +151,7 @@
 					</li>
 				</ul>
 
-				<button type="button" class="btn btn-default btn-lg">See Complete Board</button>
+				<button type="button" class="btn btn-danger btn-lg text-center">See Complete Board</button>
 			</div>
 		</div>
 	</div>
@@ -140,14 +180,14 @@
 		<div class="row" id="information">
 			<div class="col-md-12 info-news">
 				<div class="col-md-12">
-					<div class="col-md-6 col-sm-12"><a href="#"><img src="images/message.jpg" class="info-box img-responsive" alt="president's message"><p class="absolute-text">President's Message</p></a></div>
-					<div class="col-md-3 col-sm-6"><a href="#"><img src="images/events.jpg" class="info-box img-responsive" alt="events"><p class="absolute-text">Events</p></a></div>
-					<div class="col-md-3 col-sm-6"><a href="#"><img src="images/news.jpg" class="info-box img-responsive" alt="news"><p class="absolute-text">News</p></a></div>
+					<div class="col-md-6 col-xs-6"><a href="#"><img src="images/message.jpg" class="info-box img-responsive" alt="president's message"><p class="absolute-text">President's Message</p></a></div>
+					<div class="col-md-3 col-xs-6"><a href="#"><img src="images/events.jpg" class="info-box img-responsive" alt="events"><p class="absolute-text">Events</p></a></div>
+					<div class="col-md-3 col-xs-6"><a href="#"><img src="images/news.jpg" class="info-box img-responsive" alt="news"><p class="absolute-text">News</p></a></div>
 				</div>
 				<div class="col-md-12">
-					<div class="col-md-3 col-sm-6"><a href="#"><img src="images/tools.jpg" class="info-box img-responsive" alt="tools"><p class="absolute-text">Resources</p></a></div>
-					<div class="col-md-3 col-sm-6"><a href="#"><img src="images/directory.jpg" class="info-box img-responsive" alt="directory"><p class="absolute-text">Directory</p></a></div>
-					<div class="col-md-6 col-sm-12"><a href="#"><img src="images/history.jpg" class="info-box img-responsive" alt="history"><p class="absolute-text">CREAA History</p></a></div>
+					<div class="col-md-3 col-xs-6"><a href="#"><img src="images/tools.jpg" class="info-box img-responsive" alt="tools"><p class="absolute-text">Resources</p></a></div>
+					<div class="col-md-3 col-xs-6"><a href="#"><img src="images/directory.jpg" class="info-box img-responsive" alt="directory"><p class="absolute-text">Directory</p></a></div>
+					<div class="col-md-6 col-xs-6"><a href="#"><img src="images/history.jpg" class="info-box img-responsive" alt="history"><p class="absolute-text">CREAA History</p></a></div>
 				</div>
 			</div>
 		</div>
@@ -159,7 +199,7 @@
 		<div class="row" id="footer">
 			<div class="footer-list">
 				<div class="col-md-4 footer-address">
-					<p>945 Taraval Street, #328, San Francisco</p>
+					<p>945 Taraval Street #328, San Francisco</p>
 				</div>
 				<div class="col-md-4 footer-social">
 					<a href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
@@ -172,6 +212,10 @@
 			</div>
 		</div>
 	</div>
+
+
+	<!-- JS Bootstrap CDN -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" rel="stylesheet"></script>
 
 </body>
 
